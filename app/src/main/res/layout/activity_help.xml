@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.s.dial100app.HelpActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30sp"
+                android:padding="30sp"
+                android:text="Q-What to do in case location is not coming on the app? \n A- In case of app not getting the location, turn on the location , restart the app and try again or open Google Maps and then try again. Make sure you've given the permissions required for location.  \n \n Q-What steps to take in case dialer is not popping up when emergency number needs to be dialled? \n A-Check the permission list of apps allowed to access dialer and in case app is denied access, allow it. \n \n Q-Why do I see numbers instead of an address in location? \n A- These numbers are your location latitude and longitude, which means your location service is on. However, for showing an user friendly address you must be connected to the internet. \n \n Q-Do I need to pay for sms? \n A-Yes, you have to pay as the app uses your network service provider.\n\n NOTE: Please wait for a few seconds after selecting the image and for a few seconds after selecting the video as your network might be slow and sending the information before the upload has completed will lead to the appropriate link not being sent to the authorities." />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

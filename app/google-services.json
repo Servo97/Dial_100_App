@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "925442734987",
+    "firebase_url": "https://dial-100-app.firebaseio.com",
+    "project_id": "dial-100-app",
+    "storage_bucket": "dial-100-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925442734987:android:bfe82155f1e26be4",
+        "android_client_info": {
+          "package_name": "com.example.s.dial100app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925442734987-nosh8sqe2ckfd8um6jccb5rfqm6geeso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB941zlhDxWIkFHuUrWL9yhK69gP6b6-us"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/fake_call"
+            android:title="@string/fake_call"
+            android:icon="@drawable/ic_call_black_24dp"/>
+        <item
+            android:id="@+id/sos_on"
+            android:title="@string/make_a_siren_sound"
+            android:icon="@drawable/ic_add_alert_black_24dp"/>
+        <item
+            android:id="@+id/sos_off"
+            android:title="@string/stop_the_siren_sound"
+            android:icon="@drawable/ic_add_alert_black_24dp"/>
+    </group>
+</menu>

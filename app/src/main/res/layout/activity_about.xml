@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.s.dial100app.AboutActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="80sp"
+        android:layout_margin="@dimen/fab_margin"
+        android:text="The version of this app is (1.0.0)\nCreated by students of VESIT"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="180sp"
+        android:layout_margin="@dimen/fab_margin"
+        android:text="Feedback:\nIn case of any problems leave a mail at:\n2015sarvesh.patil@ves.ac.in\n\nTurn the location on, to see location on the app."/>
+</android.support.constraint.ConstraintLayout>
